@@ -6,8 +6,8 @@
 from typing import Dict, List
 import requests
 
-
-API_LINK = "http://87.237.234.204:7456/back/v2/GetExchangeCourses/1"
+# Your Api Link
+API_LINK = ""
 
 updates = requests.get(API_LINK).json()
 
