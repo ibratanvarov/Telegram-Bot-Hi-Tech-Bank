@@ -5,8 +5,10 @@ import requests
 from telebot import types
 
 bot = telebot.TeleBot(config.TOKEN)
-my_id = '29555488'
-my_id1 = '509393103'
+# Your id
+my_id = ''
+# your friend's id
+my_id1 = ''
 
 @bot.message_handler(commands=['start'])
 def zero(message):
